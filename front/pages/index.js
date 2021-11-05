@@ -34,14 +34,18 @@ export default function Home() {
 
           <a href="https://discord.gg/bccRnBNDGu" className={styles.card}>
             <h2>Discord &rarr;</h2>
-            <p>Communicate and read without borders. You're always welcome here.</p>
+            <p>Communicate and read without borders. You&apos;re always welcome here.</p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
         <div className={styles.grid}>
-          <a href="https://github.com/brpsamp/brpsa-web" target="_blank" className={styles.footer_ui}>Edit on GitHub</a>
+          <a
+            href="https://github.com/brpsamp/brpsa-web"
+            rel="noreferrer"
+            target="_blank"
+            className={styles.footer_ui}>Edit on GitHub</a>
           <p className={styles.footer_ui}>{new Date().getFullYear()} © Blefonix</p>
         </div>
       </footer>
