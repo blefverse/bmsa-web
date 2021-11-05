@@ -1,6 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Blefonix RolePlay Web
 
-## Getting Started
+The next-gen [Blefonix RolePlay](https://brpsa.vercel.app) web services repo. Home, docs and other things! Powered with [mdx](https://mdxjs.com), [React](https://reactjs.org), [Next.js](https://nextjs.org) and true dreams.
+
+The project was deployed so that Blefonix RolePlay players would be able to find the necessary information about the server in a quick way. Also, anyone can edit and improve this repo. This means that the docs, for example, will always remain up-to-date.
+
+[This website](https://brp.vercel.app) and [this](https://brpsa.vercel.app) should not be confused with [this one](https://rp.blefonix.com). The last is a discussion website. It's a place to discuss various things related to the game server.
+
+## Docs
+
+- React components, markdown, i18n and theming support.
+- Docs with automatically generated sidebar and anchor links.
+- Docs with built-in syntax highlighting and file-system based routing.
+- Project also includes image optimization, and other awesome features.
+
+### Installation
+
+```
+$ yarn
+```
+
+### Local Development
+
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+## Frontend
+
+### Local Development
 
 First, run the development server:
 
@@ -20,15 +57,18 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Use it for code formatting:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npx prettier --write .
+# or
+yarn prettier --write .
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+To learn more about this web app, you can check out [the brpsa-web GitHub Wiki](https://github.com/brpsamp/brpsa-web/wiki).
 
-## Deploy on Vercel
+Your feedback and contributions are welcome!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The project is created by [@blefony](https://github.com/blefony) and [@michaelfair25](https://github.com/michaelfair25) at [Blefonix RolePlay](https://github.com/brpsamp).
